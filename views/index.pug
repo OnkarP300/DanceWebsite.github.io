@@ -1,0 +1,25 @@
+//- index.pug
+doctype html
+html
+  head
+    title MyDanceAcademia
+    style
+      include ../static/style.css
+  body
+    div.container 
+      nav#navbar 
+          ul
+              li #[a(href="/") Home ]
+              li #[a(href="/") Services]
+              li #[a(href="/") About Us]
+              li #[a(href="/") Contact Us]
+              li #[a(href="/") More Info]
+
+      section#intro 
+        h1 MyDanceAcademia
+        h3 We are one of the best Dance Academies in the World 
+    section#mission Mission & Vission 
+    section#sponsors Our Sponsors
+    footer Copywrite &copy; All writes reserved      
+    script
+      include ../static/index.js

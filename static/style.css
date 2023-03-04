@@ -1,0 +1,74 @@
+/* Reset */
+  @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: rgb(22, 22, 12);
+    width: 40vw;
+    margin: auto;
+    border-radius: 30px;
+    transition: all .3s ease-in;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 10px 10px;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: rgb(67, 67, 66) 2px 1px;
+}
+#navbar:hover{
+    width: 100%;
+    border-radius: 0;
+    background-color: yellow;
+}
+#navbar li a:hover{
+    color: black;
+    text-shadow: none;
+}
+
+.container{
+    background: center / cover no-repeat url("/static/bg.jpg");
+    z-index: -1;
+}
+#intro{
+    /* background-color: rgb(255, 251, 0); */
+    height: 50vh;
+    color: white;
+    font-family: 'Explora', 'cursive';
+    text-align: center;
+    padding: 100px 100px;
+}
+#intro h1{
+    font-size: 70px; 
+    color: yellow;
+    text-shadow: crimson 2px 2px;  
+}
+#intro h3{
+    text-shadow: rgb(55, 55, 55) 2px 2px;  
+    font-size: 50px;   
+}
+#sponsors{
+    background-color: aqua;
+    height: 40vh;
+}
+footer{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
